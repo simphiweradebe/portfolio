@@ -1,0 +1,148 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+nav{
+    background: rgb(102, 100, 100);
+    height:50%;
+    color:white ;
+    width:100%;
+}
+.navbar-brand{
+    font-size:20px;
+}
+.nav-link{
+    color:tomato;
+}
+.nav-link:hover{
+    color: black;
+}
+.heading h1{
+    display:inline-block;
+    font-size:30px;
+    margin-top:50%;
+}
+.col-2{
+    display:flex;
+    
+}
+.btn {
+    width:10%;
+    height:25%;
+    margin-top:11%;
+    margin-left:30%;
+
+}
+.col-3{
+    margin-top:5% ;
+    text-align: center;
+}
+.col-3 h4{
+    text-align:center;
+    color:black;
+    text-decoration:none;
+    margin-left:10%;
+}
+.toggle-menu{
+    display:none ;
+}
+.programmer-icon{
+    width:300px;
+    height:250px ;
+    margin-top:50%;
+}
+.about_content{
+    margin-top:30px;
+}
+.nav ul li{
+    display:inline-block;
+    font-size:20px ;
+}
+
+.menu-icon{
+    display:none;
+}
+.row{
+    margin-top:10% ;
+}
+.row a{
+    text-decoration:none;
+    color:black ;
+}
+.intro-pic{
+    margin-top:5%;
+    margin-left:15% ;
+}
+footer{
+    height:50px;
+    width:100%;
+    background-color:white ;
+    text-align: center;
+    color: coral;
+}
+footer h1{
+    font-size:medium;
+    margin-top:5%;
+}
+h4{
+    text-align: center;
+}
+.about_content p{
+    text-align: center;
+}
+
+@media (max-width:576px) {
+    .heading h1{
+        font-size:15px;
+        text-align: center;
+        margin-top:60%;
+    }
+    
+    .nav{
+        display:none;
+        height:30vh;
+        background: rgb(52, 58, 57);
+        top:10;
+        width:100% ;
+        position:sticky;
+    }
+    .nav{
+        display: none;
+    }
+    .nav ul li{
+        display:block;
+    }
+    .btn{
+        margin-left:0;
+        width:40%;
+        margin-top:280px;
+    }
+    .toggle-menu{
+        display:none;
+    }
+    .programmer-icon{
+        width:125px;
+        margin-top:80% ;
+    }
+    .about_content {
+        text-align: center;
+        background-color:rgba(0, 0, 0, 0.349);
+        color:white;
+        border-radius:10px ;
+    }
+    
+    .menu-icon{
+        display:block;
+    }
+    .row{
+        margin-top:35% ;
+        width:100% ;
+    }
+    .intro-pic{
+        margin-top:10%;
+        margin-left:15% ;
+    }
+    
+    
+
+}
+
